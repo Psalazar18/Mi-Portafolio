@@ -1,0 +1,51 @@
+html {
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+}
+h3{
+	font-family: 'Staatliches', cursive;
+}
+
+header {
+	/*background-image: url('../img/bg_me.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;*/
+}
+
+.image-width {
+
+	width: 1200px;
+}
+
+.bg-image {
+	background-image: url('../img/bg2p2.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 700px;
+
+}
+
+.card-size {
+	width: 400px;
+}
+
+@media (max-width: 576px) { 
+	.bg-image {
+		background-attachment: fixed;
+		background-image: url('../img/bg_me.jpg');
+	}
+}
+
+.carousel-indicators {
+	top: 203px;
+}
+.carousel-indicators li{
+
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color:#373A3C;
+}
