@@ -8,13 +8,6 @@ h3{
 	font-family: 'Staatliches', cursive;
 }
 
-header {
-	/*background-image: url('../img/bg_me.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 500px;*/
-}
-
 .image-width {
 
 	width: 1200px;
@@ -33,9 +26,12 @@ header {
 }
 
 @media (max-width: 576px) { 
-	.bg-image {
-		background-attachment: fixed;
-		background-image: url('../img/bg_me.jpg');
+	.bg-media {
+		background-image: url('../img/bg_mediaquery.png');
+		margin
+	}
+	.media{
+		font-size: 2rem;
 	}
 }
 
