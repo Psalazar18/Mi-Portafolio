@@ -8,6 +8,11 @@ h3{
 	font-family: 'Staatliches', cursive;
 }
 
+.cuadradito{
+	padding-left: 1em;
+    padding-right: 1em;
+}
+
 .image-width {
 
 	width: 1200px;
@@ -36,7 +41,7 @@ h3{
 }
 
 .carousel-indicators {
-	top: 203px;
+	top: 17em;
 }
 .carousel-indicators li{
 
